@@ -1,0 +1,63 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding-top: 10px;
+	font-family: "Anek Telugu", sans-serif;
+	padding-left: 15px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-right: 30px;
+}
+.postcard-header h1 {
+	width: 350px;
+	height: 50px;
+	margin: 0;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0 !important;
+}
+
+.body-left p {
+	font-size: small;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 180px;
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: medium;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgba(43, 41, 41, 0.166);
+	padding: 5px 10px;
+}
+.no-marging {
+	margin-top: 0px !important;
+}
